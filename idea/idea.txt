@@ -1,0 +1,7 @@
+Aplicación de peliculas
+
+- Agregar peliculas
+
+- Eliminar peliculas
+
+- Otra persona guarde peliculas
