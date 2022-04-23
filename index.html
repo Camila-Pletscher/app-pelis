@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>App pelis</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="./public/images/icon-pelis.png" alt="" width="50" height="auto" class="d-inline-block align-text-top">
+            <h2>
+                Aplicación de peliculas vistas
+            </h2>
+            
+          
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <form id="form-user" class="row g-3 p-4">
+            <div class="col-auto">
+                <p>Ingrese su nombre de usuario:</p>
+            </div>
+            <div class="col-auto">
+              <label for="user" class="visually-hidden">Usuario</label>
+              <input type="text" class="form-control" id="user" placeholder="Camila">
+            </div>
+            
+            <div class="col-auto">
+              <button type="submit" class="btn btn-success mb-3">Ingresar</button>
+            </div>
+          </form>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./src/App.js" type="module"></script>
 </body>
 </html>
